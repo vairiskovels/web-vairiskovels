@@ -1,0 +1,57 @@
+/* For typewrite effect */
+.typewrite {
+    color:#343a40;
+    text-decoration: none;
+    font-size: 48px;
+}
+
+.typewrite:hover {
+    color:#343a40;
+    text-decoration: none;
+}
+
+/* Images on the home page */
+img {
+    width: 300px;
+    height: auto;
+}
+
+/* Text on the main page is justified */
+.col-sm-4, .col-sm-8, .col-md-4, .lorem {
+    text-align: justify;
+}
+
+/* Color of text in navigation bar */
+#collapsibleNavbar li a {
+    color: #f8f9fa;
+}
+
+/* Color of text in navigation bar when hovered*/
+#collapsibleNavbar li a:hover{
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  	-webkit-mask-size: 200%;
+  	animation: shine 2s infinite;
+}
+/* Shining effect */
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+/* Images on interests page */
+.card-img-top{
+    height: 225px;
+    width: 100%;
+    display: block;
+}
+
+.text-muted-footer {
+    padding: 48px;
+    background-color: #e9ecef;
+
+}
